@@ -3,8 +3,6 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
-
         final int MAX_PANCAKES_PER_USER = 5;
         final int MAX_PANCAKES_PER_CYCLE = 12;
         final int NUM_USERS = 3;
