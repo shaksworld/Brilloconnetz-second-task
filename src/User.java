@@ -11,6 +11,7 @@ public class User {
     }
 
     public void placeOrder(Random random) {
+
         remainingPancakes = random.nextInt(maxPancakesPerUser + 1);
     }
 
@@ -21,6 +22,7 @@ public class User {
     }
 
     public boolean hasUnmetOrders() {
+
         return remainingPancakes > 0;
     }
 }
